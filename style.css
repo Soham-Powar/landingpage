@@ -7,13 +7,13 @@
 .sec1 {
 	background-color: #1f2937;
 	color: white;
+	padding: 0 15%;
 }
 
 nav ul {
 	display: flex;
 	gap: 32px;
 	list-style: none;
-	margin: 0 20%;
 	flex-wrap: wrap;
 }
 
@@ -24,10 +24,49 @@ li a {
 }
 
 nav {
-	padding: 20px;
+	padding: 20px 0;
 }
 
 .logo {
 	margin-right: auto;
+	font-weight: 900;
+}
+
+.hero {
+	margin-top: 70px;
+	display: flex;
+	padding: 40px 0;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.text h1 {
+	font-size: 48px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+
+}
+
+.img {}
+
+.text p {
+	font-size: 18px;
+	flex-grow: 1;
+}
+
+.text button {
+	width: 130px;
+	margin-bottom: 30px;
+	height: 50px;
+	font-size: 22px;
+	border-radius: 12px;
+	background-color: #3882f6;
+	color: white;
 	font-weight: 900;
 }
