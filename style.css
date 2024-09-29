@@ -130,3 +130,45 @@ nav {
 	text-align: right;
 	font-size: larger;
 }
+
+/* SECTION 4 */
+
+.sec4 {
+	padding: 100px 20%;
+}
+
+.c2adiv {
+	display: flex;
+	background-color: #3882f6;
+	padding: 50px 140px;
+	border-radius: 15px;
+}
+
+.c2a_text {
+	flex: 1;
+	color: white;
+}
+
+.c2a_text p {
+	color: #e5e7eb;
+}
+
+.c2adiv button {
+	padding: 0px 25px;
+	font-size: larger;
+	color: white;
+	font-weight: 900;
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: #1f2937;
+	color: white;
+	padding: 20px;
+	font-size: 18px;
+	text-align: center;
+}
